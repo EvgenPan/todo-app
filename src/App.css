@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  margin-top: 30px;
+  padding: 0 15px;
+}
+.App h1{
+  font-size: 42px;
+  color: #fff;
+}
+.wrapper_columns{
+  max-width: 800px;
+  margin: 60px auto 0 auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  padding: 40px;
+  -webkit-box-shadow: 3px 6px 15px 3px rgb(0 0 0 / 47%);
+  box-shadow: 3px 6px 15px 3px rgb(0 0 0 / 47%)
+}
+.column{
+  max-width: 345px;
+  min-height: 150px;
+  border: 1px solid #0003;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+.task .task__item{
+  min-height: 40px;
+  box-shadow: 2px 3px 12px 3px rgb(0 0 0 / 15%);
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  padding: 5px 10px;
+  text-align: left;
+  display: flex;
+
+}
+.task .task__item:before{
+  content: '';
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0040ff;
+}
+.task__item-content{
+  flex: 1 1 auto;
+}
+.task__item-btn{
+  display: flex;
+  padding-left: 10px;
+}
+.task__item-btn .edit , .task__item-btn .delete{
+  cursor: pointer;
+
+}
+.task__item-btn .edit:hover svg path , .task__item-btn .delete:hover svg path{
+  fill: #000;
+}
+.task__item-btn .edit svg path , .task__item-btn .delete svg path{
+  fill: #00000085;
+}
+.task__item-btn .edit{
+  margin-right: 10px;
+}
