@@ -14,7 +14,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-shrink: 0;
   padding: 40px;
   -webkit-box-shadow: 3px 6px 15px 3px rgb(0 0 0 / 47%);
   box-shadow: 3px 6px 15px 3px rgb(0 0 0 / 47%)
