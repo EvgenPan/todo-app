@@ -12,6 +12,7 @@
   margin: 60px auto 0 auto;
   background-color: #fff;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   flex-shrink: 0;
   padding: 40px;
